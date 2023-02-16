@@ -21,11 +21,11 @@ public class Note {
     @Column(name="body")
     private String body;
     @Column(name="createdAt")
-    private LocalDate createdAt;
+    private LocalDate createdAt =  LocalDate.now();
 
-    @PrePersist
-    void createdAt(){
-        this.createdAt =  LocalDate.now();
-    }
+//    @PrePersist
+//    void createdAt(){
+//        this.createdAt =  LocalDate.now();
+//    }
 }
 
