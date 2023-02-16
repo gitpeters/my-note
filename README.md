@@ -1,7 +1,7 @@
 
 # My Note
 This is a simple SpringBoot MVC project aimed at helping developers or users plan their daily activity:
-
+![Capture](https://user-images.githubusercontent.com/111524304/219351482-495e6194-3419-4184-8ff0-564d96dbfd94.PNG)
 ## Features:
 - Create note
 - View & update note
