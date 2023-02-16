@@ -33,7 +33,9 @@
                     </div>
                 </div>
                 <div class="note-body">
+                    <a href="#" th:href="@{/updateNote/{id}(id=${note.id})}">
                     <p class="note-body-text" th:text="${note.body}">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci architecto consequatur eius, repellat soluta voluptatibus.</p>
+                    </a>
                 </div>
                 <a class="more"></a>
                 <p class="note-date" th:text="${note.createdAt}">10/02/2023</p>

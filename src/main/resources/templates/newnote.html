@@ -13,6 +13,7 @@
             <h2>My Note</h2>
             <p>Let us help you start your day with a smile <br>by arranging your daily schedules</p>
         </header>
+        <a th:href="@{/}" class="go-back-link"><spa class="arrow-head">&#8592;</spa>Back</a>
         <section class="form-container">
             <form class="form" action="saveNote" th:action="@{/saveNote}" th:object="${note}"  method="POST">
                 <input type="text"  th:field="*{title}" placeholder="Note title .....">
