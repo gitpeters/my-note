@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-box: box-sizing;
+    font-family: "Poppins", san-serif;
+    outline: none;
+    border: none;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: #f0f0f0;
+}
+
+.container{
+    width: min(100% - 30px, 840px);
+    margin-inline: auto;
+    padding: 1.7rem;
+}
+
+header{
+    padding: 2rem 0;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+header h2{
+    font-size: 2.3rem;
+    text-transform: uppercase;
+    line-height: 2rem;
+    color: #141414;
+    font-weight: 700;
+}
+header p{
+    font-size: 18px;
+    color: #595959;
+    padding: 1.3rem 0;
+}
+
+.form-container{
+    padding: 20px;
+    width: 100%;
+    background: #fff;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form{
+    position: relative
+    background: #fff;
+    min-width: 390px;
+    width: 390px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.form input{
+    width: 100%;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 8px 5px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #0a0a0a;
+}
+
+.form input::placeholder{
+    font-size: 17px;
+    color: #d9d9d9;
+}
+
+.form textarea{
+    width: 100%;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 8px 5px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #0a0a0a;
+}
+
+.form textarea::placeholder{
+    font-size: 15px;
+    color: #d9d9d9;
+}
+
+.form textarea::-webkit-scrollbar{
+    width: 0.3vw;
+}
+
+.form textarea::-webkit-scrollbar-thumb{
+    background: #ccc;
+    border-radius: 10px;
+}
+
+.form textarea::-webkit-scrollbar-track{
+    background: #f0f0f0;
+}
+
+.form textarea::-webkit-scrollbar-track:hover{
+    filter: brightness(110%);
+}
+
+.form .btn{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.form button{
+    background: #2e80b0;
+    color: #fff;
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    font-size: 19px;
+    border-radius: 8px;
+    transition: 0.2s ease;
+}
+
+.form button:hover{
+    background: #077ead;
+}
